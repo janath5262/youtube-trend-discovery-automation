@@ -1,0 +1,10 @@
+# Never commit secrets or local runtime state
+.env
+.env.*
+!.env.example
+*.credentials.json
+credentials.json
+.n8n/
+node_modules/
+.DS_Store
+Thumbs.db
